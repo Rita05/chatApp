@@ -1,0 +1,76 @@
+.ChatRoomContainer{
+    width: 500px;
+    max-width: 867px;
+    height: 70vh;
+    background: #eeeef1;
+    box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.Toolbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeef1;
+    top: 0px;
+    font-weight: 500;
+    border-bottom: 1px solid #6c757d26;
+
+}
+
+.AboutUserGroup{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ButtonRedirect{
+    margin: 15px;
+    background-color: #20B2AA;
+    border-color: #20B2AA;
+    height: 40px;
+}
+
+.ToolbarTitle{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.Image{
+    width: 50px; 
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 100%; 
+    object-fit: cover;
+    box-shadow: 0 5px 5px 0 #C0C0C0;
+}
+
+
+.CardBody{
+    background-color: #fcfcfeec;
+    height: 465px;
+}
+
+
+.MessageSendForm{
+    display: flex;
+    background: #eee;
+    border-top: 1px solid #6c757d26;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+.MessageInput{
+    flex:1;
+    background: #ddd;
+}
+
+.SendButton{
+    margin-left: 10px;
+    background-color: #20B2AA;
+    border-color: #20B2AA;
+}
+
+

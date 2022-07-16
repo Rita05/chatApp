@@ -1,0 +1,33 @@
+.MessageFormContent {
+    height: 66vh;
+    width: 100%;
+    border: '1px solid rgba(0,0,0,.4)';
+    border-radius:  '4px';
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    overflow-y: scroll;
+    background-color: #fcfcfeec;
+    display: flex;
+    
+}
+
+.CookieCard{
+    background-color: #6699ff;
+}
+
+.CardMessage{
+    background-color: #00cccc;
+}
+
+.HeaderInfoUser{
+    display: block;
+    border: 0;
+    width: 85%;
+    border-bottom: 2px solid;
+    border-bottom-color: #e9e2e2;
+}
+
+.CardHeader{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
