@@ -1,21 +1,21 @@
-import * as React from "react"
-import styled, { keyframes } from "styled-components"
-import { slideInLeft, slideInRight } from "react-animations"
-import { ListGroup } from 'react-bootstrap'
-import Styles from "./message-list-form.module.css"
-import Toast from 'react-bootstrap/Toast'
+import * as React from "react";
+import styled, { keyframes } from "styled-components";
+import { slideInLeft, slideInRight } from "react-animations";
+import { ListGroup } from 'react-bootstrap';
+import Styles from "./message-list-form.module.css";
+import Toast from 'react-bootstrap/Toast';
 
 const SlideInLeftAnimation = keyframes`${slideInLeft}`
 const SlideInLeftWrapper = styled.div`
-  animation: infinite 2s ${SlideInLeftAnimation}
+  animation: infinite 2s ${SlideInLeftAnimation};
   animation-iteration-count: 1
-`
+`;
 
 const SlideInRightAnimation = keyframes`${slideInRight}`
 const SlideInRightWrapper = styled.div`
-  animation: infinite 2s ${SlideInRightAnimation}
+  animation: infinite 2s ${SlideInRightAnimation};
   animation-iteration-count: 1
-`
+`;
 
 const MessageItem = ({ messageObject, loginCookie }) => {
   const { login, message, sendMessageDate } = messageObject
