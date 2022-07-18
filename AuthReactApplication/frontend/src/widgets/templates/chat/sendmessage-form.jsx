@@ -3,15 +3,15 @@ import { Card, Row, Col} from 'react-bootstrap';
 import MessageForm from "./message-list-form";
 import SendMessageInputForm from "./sendmessage-input-form";
 import ChatUsersList from "./chat-users-list";
-import ConversationSearch from  './search-form';
+import ConversationSearch from './search-form';
 import Styles from "./sendmessage-form.module.css";
 
 const ChatForm = (props) => {
 
     const getCookie = (name) => {
-        const value = `; ${document.cookie}`;
-        const parts = value.split(`; ${name}=`);
-        if (parts.length === 2) return parts.pop().split(';').shift();
+        const value = `; ${document.cookie}`
+        const parts = value.split(`; ${name}=`)
+        if (parts.length === 2) return parts.pop().split(';').shift()
     }
     var loginCookie = getCookie('login')
 

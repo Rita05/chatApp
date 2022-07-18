@@ -1,7 +1,7 @@
 const { request, response } = require('express')
 const express = require('express')
 var multer = require('multer')
-var upload = multer({ dest: 'E:/chat-project/AuthBackend/public/uploads' }).single('image')
+var upload = multer({ dest: 'E:/chat-app/AuthBackend/public/uploads' }).single('image')
 const bodyParser = require("body-parser")
 const app = express()
 const port = 8080
